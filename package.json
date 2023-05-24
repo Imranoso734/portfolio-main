@@ -5,11 +5,11 @@
   "scripts": {
     "build": "next build && next export",
     "clean": "rm -rf build-tsc .next",
-    "compile": "yarn run -T tsc --build --verbose",
+    "compile": "next run -T tsc --build --verbose",
     "dev": "next dev",
-    "lint": "yarn run -T prettier --write './src/**/*.{js,jsx,json,ts,tsx}' && eslint './src/**/*.{js,jsx,ts,tsx}' --fix --max-warnings=0",
+    "lint": "next run -T prettier --write './src/**/*.{js,jsx,json,ts,tsx}' && eslint './src/**/*.{js,jsx,ts,tsx}' --fix --max-warnings=0",
     "start": "next start",
-    "sitemap": "yarn next-sitemap"
+    "sitemap": "next next-sitemap"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.14",
