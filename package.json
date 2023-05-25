@@ -3,14 +3,9 @@
   "version": "2.0.0",
   "private": true,
   "scripts": {
-   "dev": "next dev",
-    "build": "next build && next export",
-    "clean": "rm -rf build-tsc .next",
-    "compile": "yarn run -T tsc --build --verbose",
-    "dev": "next dev",
-    "lint": "yarn run -T prettier --write './src/**/*.{js,jsx,json,ts,tsx}' && eslint './src/**/*.{js,jsx,ts,tsx}' --fix --max-warnings=0",
-    "start": "next start",
-    "sitemap": "yarn next-sitemap"
+  "dev": "next dev",
+  "build": "next build && next export",
+  "start": "next start"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.14",
