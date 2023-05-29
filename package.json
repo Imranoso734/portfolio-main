@@ -3,9 +3,9 @@
   "version": "2.0.0",
   "private": true,
   "scripts": {
-  "dev": "next dev",
-  "build": "next build && next export",
-  "start": "next start"
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.14",
@@ -15,6 +15,7 @@
     "next": "^13.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.9.0",
     "ts-pattern": "^4.2.2"
   },
   "devDependencies": {
