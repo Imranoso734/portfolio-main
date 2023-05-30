@@ -70,7 +70,7 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Imran.`,
+  name: `I'm John.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -195,69 +195,69 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Project title 1',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: '#',
     image: porfolioImage1,
   },
-  // {
-  //   title: 'Project title 2',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://timbaker.me',
-  //   image: porfolioImage2,
-  // },
-  // {
-  //   title: 'Project title 3',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://timbaker.me',
-  //   image: porfolioImage3,
-  // },
-  // {
-  //   title: 'Project title 4',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://timbaker.me',
-  //   image: porfolioImage4,
-  // },
-  // {
-  //   title: 'Project title 5',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://timbaker.me',
-  //   image: porfolioImage5,
-  // },
-  // {
-  //   title: 'Project title 6',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://timbaker.me',
-  //   image: porfolioImage6,
-  // },
-  // {
-  //   title: 'Project title 7',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://timbaker.me',
-  //   image: porfolioImage7,
-  // },
-  // {
-  //   title: 'Project title 8',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://timbaker.me',
-  //   image: porfolioImage8,
-  // },
-  // {
-  //   title: 'Project title 9',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://timbaker.me',
-  //   image: porfolioImage9,
-  // },
-  // {
-  //   title: 'Project title 10',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://timbaker.me',
-  //   image: porfolioImage10,
-  // },
-  // {
-  //   title: 'Project title 11',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://timbaker.me',
-  //   image: porfolioImage11,
-  // },
+  {
+    title: 'Project title 2',
+    description: 'Give a short description of your project here.',
+    url: '#',
+    image: porfolioImage2,
+  },
+  {
+    title: 'Project title 3',
+    description: 'Give a short description of your project here.',
+    url: '#',
+    image: porfolioImage3,
+  },
+  {
+    title: 'Project title 4',
+    description: 'Give a short description of your project here.',
+    url: '#',
+    image: porfolioImage4,
+  },
+  {
+    title: 'Project title 5',
+    description: 'Give a short description of your project here.',
+    url: '#',
+    image: porfolioImage5,
+  },
+  {
+    title: 'Project title 6',
+    description: 'Give a short description of your project here.',
+    url: '#',
+    image: porfolioImage6,
+  },
+  {
+    title: 'Project title 7',
+    description: 'Give a short description of your project here.',
+    url: '#',
+    image: porfolioImage7,
+  },
+  {
+    title: 'Project title 8',
+    description: 'Give a short description of your project here.',
+    url: '#',
+    image: porfolioImage8,
+  },
+  {
+    title: 'Project title 9',
+    description: 'Give a short description of your project here.',
+    url: '#',
+    image: porfolioImage9,
+  },
+  {
+    title: 'Project title 10',
+    description: 'Give a short description of your project here.',
+    url: '#',
+    image: porfolioImage10,
+  },
+  {
+    title: 'Project title 11',
+    description: 'Give a short description of your project here.',
+    url: '#',
+    image: porfolioImage11,
+  },
 ];
 
 /**
