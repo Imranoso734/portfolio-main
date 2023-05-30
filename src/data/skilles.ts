@@ -1,4 +1,4 @@
-import { DiNodejsSmall, DiNodejs, DiReact, DiWordpress, DiLaravel, DiGithubBadge, DiCss3, DiBootstrap, DiJavascript1, DiMysql, DiPhp, DiPostgresql, DiSass } from "react-icons/di";
+import { DiNodejs, DiReact, DiWordpress, DiLaravel, DiCss3, DiBootstrap, DiJavascript1, DiMysql, DiPhp, DiPostgresql } from "react-icons/di";
 import { FaShopify } from 'react-icons/fa';
 
 
@@ -11,7 +11,7 @@ export const technologys = [
     {
         title: "NextJs",
         description: "I have a strong background in developing dynamic and intuitive user interfaces. I have worked extensively with front-end development using NextJs",
-        icon:DiReact
+        icon: DiReact
     },
     {
         title: "Laravel",

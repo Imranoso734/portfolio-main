@@ -6,9 +6,9 @@ export default function MySkills() {
                 <div className="container mx-auto">
                     <div className="">
                         {technologys.map((item, index) => (
-                            <div className="p-2 w-full">
+                            <div className="p-2 w-full" key={index}>
                                 <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                                    <item.icon className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"  />
+                                    <item.icon className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" />
 
                                     {/* <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80" /> */}
                                     <div className="flex-grow">
